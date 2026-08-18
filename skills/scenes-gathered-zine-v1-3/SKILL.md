@@ -1,6 +1,6 @@
 ---
 name: scenes-gathered-zine-v1-3
-description: "Transform a user-supplied photo into a vertical 3:5 Gathered Scenes Zine poster that anchors truthful photography inside a spacious source-derived abstract illustration field, aggressively compresses dense foliage and other micro-detail into a few large quiet forms, integrates one high-chroma hue as compositional structure, and preserves a visibly hand-torn fibrous photo-to-paper edge. Use when the user wants a tactile minimal paper collage with simplified illustration, active negative space, restrained English-default, Chinese, or bilingual micro-text, and an unmistakable but quiet torn-paper boundary."
+description: "Transform a user-supplied photo into a vertical 3:5 Gathered Scenes Zine poster that anchors truthful people/objects and source composition inside a spacious, simplified source-derived abstract illustration field; clean up cluttered backgrounds into soft large color masses, preserve native photographic color, integrate low-ink high-chroma structural color, and keep a visibly hand-torn fibrous photo-to-paper edge. Use when the user wants a tactile minimal paper collage with simplified illustration, active negative space, restrained English-default, Chinese, or bilingual micro-text, and an unmistakable but quiet torn-paper boundary without sticker, template, or influencer-poster aesthetics."
 ---
 
 # 实景拼贴 · Gathered Scenes Zine v1.3
@@ -9,8 +9,9 @@ description: "Transform a user-supplied photo into a vertical 3:5 Gathered Scene
 
 Create a calm, tactile poster from a supplied photo. Preserve the signature **真景为锚、插画成场、色彩成结构、撕纸成界、纸面会呼吸**:
 
-- keep the photographic scene truthful;
+- keep the photographic scene truthful, especially the original core people/objects, composition, and native colors;
 - let a larger abstract illustration field reinterpret selected source elements instead of tracing them;
+- simplify visually noisy backgrounds into clean, soft, large color-block fields while preserving the subject relationship;
 - compress foliage, branches, leaves, crowds, texture, and other complex detail into a few quiet graphic forms;
 - make the added hue share source-derived shapes with the illustration instead of floating as decoration;
 - keep a visible hand-torn fibrous edge where photography becomes paper;
@@ -23,14 +24,15 @@ Return the generated image plus one brief creative rationale by default. Include
 Resolve conflicts in this order:
 
 1. Preserve the scene's identity and key spatial relationship.
-2. Keep the photographic portion truthful.
-3. Simplify complex organic or repetitive detail into a few large legible masses and directional gestures.
+2. Keep the photographic portion truthful, including the native color atmosphere and recognizable people/object subjects.
+3. Simplify cluttered backgrounds and complex organic or repetitive detail into a few large legible masses and directional gestures.
 4. Turn the illustration into a large designed field rather than a literal copy or small peripheral echo.
 5. Build photography, illustration, and one added hue on the same source-derived compositional skeleton.
 6. Use the added hue as chromatic structure that changes balance, movement, figure–ground, or meaning.
-7. Preserve substantial quiet space inside and around the enlarged illustration.
-8. Preserve a tactile hand-torn photo edge at the primary material handoff.
-9. Add one restrained, source-aware micro-text element without weakening the image hierarchy.
+7. Keep the color treatment low-ink and high-saturation: a few decisive structural areas, not busy decoration.
+8. Preserve substantial quiet space inside and around the enlarged illustration.
+9. Preserve a tactile hand-torn photo edge at the primary material handoff.
+10. Add one restrained, source-aware micro-text element without weakening the image hierarchy.
 
 Preserve relationships before details. Remove detail before adding decoration.
 
@@ -91,6 +93,22 @@ Use **medium abstraction** by default:
 - keep at least one unmistakable source-specific feature.
 
 Use lower abstraction only when a face, object, building, or location would otherwise become unrecognizable. Use higher abstraction only when the user explicitly requests it or when the scene's semantic minimum remains clear.
+
+
+### Subject-Faithful Background Simplification
+
+When the supplied photo contains clear people, animals, vehicles, architectural doors, objects, or performance groups, keep the subject formation and native photographic color as the factual anchor before simplifying anything else. This mode is especially important when the user asks to preserve the original subject, object, composition, or real color.
+
+- Preserve the main figures or objects in their original relative positions, facing directions, overlaps, scale relationships, and gesture sequence.
+- Preserve the source's real color identity on the subjects: garment hues, skin and material color, wood, stone, sky, wall, or object color should remain truthful unless the user asks otherwise.
+- Simplify only the nonessential background clutter first: stains, small fixtures, repeated panels, texture noise, tiny objects, busy shadows, and incidental marks.
+- Convert simplified backgrounds into clean, soft-edged, large color-block planes derived from real background areas such as wall, floor, sky, door, shadow, or ground.
+- Keep the large blocks calm and matte, with gentle boundaries, subtle paper grain, and enough variation to avoid plastic vector flatness.
+- Do not replace the source composition with a generic poster layout. The original subject rhythm, horizon or baseline, architectural frame, and directional movement should still be readable.
+- If the original scene already contains strong saturated color on the subjects, let that native color carry much of the chromatic energy and use any added hue sparingly as structural support.
+- Leave generous blank paper or low-information color field around the subject group. Empty space should feel intentionally reserved, not like an unfinished crop.
+
+This mode is not a beautifying filter. It is a disciplined reduction: real subjects stay specific; background noise becomes quiet structure.
 
 ### Build the Abstraction Map
 
@@ -251,8 +269,8 @@ Mentally remove the added hue. If the eye path, visual balance, figure–ground 
 
 - Use a vertical 3:5 paper-poster canvas unless the user requests another ratio.
 - Use warm cream aged paper with matte fibers, restrained speckles, weathering, torn edges, scan noise, and flat print texture.
-- Preserve the photograph's natural color atmosphere and recognizable geometry.
-- Render the illustration with selective woodcut, photocopy, halftone, xerox, risograph, letterpress, or cut-paper treatment.
+- Preserve the photograph's natural color atmosphere, real subject colors, and recognizable geometry.
+- Render the illustration with selective woodcut, photocopy, halftone, xerox, risograph, letterpress, or cut-paper treatment; prefer low-ink, high-saturation structural color over dense decorative printing.
 - Let photography, illustration, and chromatic structure share at least one source-derived contour, axis, rhythm, or field.
 - Keep paper texture subordinate to the abstract forms and negative space.
 - Keep the result flat and orthographic with diffuse light and no artificial 3D depth.
@@ -330,7 +348,7 @@ Use decisive language. State which details must disappear as clearly as which fo
 4. Extract one or two source shapes that can organize photography, illustration, and color together.
 5. Select a source-driven composition and set initial photo/illustration field ranges, then correct by visual weight.
 6. Build the Abstraction Map.
-7. Choose one primary illustration grammar; apply foliage and micro-detail compression when needed, enlarge the field before increasing detail, then set active density and quiet-paper share.
+7. Choose one primary illustration grammar; apply cluttered-background, foliage, and micro-detail compression when needed, enlarge the field before increasing detail, then set active density and quiet-paper share.
 8. Choose one chromatic integration mode, exact hue, source shape, material, opacity, function, and area; apply the structural removal test.
 9. Build a visible hand-torn fibrous edge at the main photo–paper handoff; set its contour, fiber band, affected perimeter, and only then add any subordinate speckles or ghost marks.
 10. Resolve the language mode, text form, exact micro-text, separator system, hierarchy, and quiet-paper placement; use supplied wording verbatim when available, otherwise default to English-only.
@@ -357,10 +375,12 @@ Regenerate at most once, correcting only the observed failure:
 - **Chromatic dominance:** reduce area, opacity, or competing echoes while preserving the color's compositional function.
 - **Text failure:** restore the exact wording, reduce its size or contrast, move it into a quiet-paper area, or make the lettering more paper-integrated.
 - **Damaged photography:** restore natural color, texture, perspective, and recognizable detail.
+- **Subject drift:** restore the original people/object formation, baseline, facing directions, overlaps, and native subject colors before simplifying the background again.
+- **Sticker/template feel:** remove uniform outlines, badges, decorative frames, trendy layout tropes, excessive cutout shadows, and any element that reads as a cheap sticker or social-media template.
 
 ## Hard Avoids
 
-Avoid literal traced illustration, individual leaf-by-leaf or needle-by-needle rendering, dense branch filigree, lace-like botanical illustration, repeated organic marks covering the field, timid peripheral illustration, full-scene photocopy, evenly detailed woodcut rendering, dense hatching everywhere, complete object outlines, filler decoration, generic abstract motifs, detached corner color blocks, isolated brush swatches, arbitrary bright dots, generic geometric accents unrelated to the source, color added after the composition is solved, clean digital photo masks, crisp rectangular clipping, sticker-like white outlines, decorative uniform deckled frames, heavy paper shadows, curled corners, dense scrapbooking, uniform dotted borders, repeated decorative icons, legible pseudo-symbol systems, multiple competing illustration styles, multiple added hues, commercial advertising hierarchy, logos, CTA, glossy mockups, neon, 3D, cinematic lighting, depth of field, fashion-editorial drama, cute cartoon or anime treatment, excessive sharpening, AI smoothing, large or polished digital typography, bold display all-caps, keyword spam, mixed decorative separators, illegible or misspelled text, long text blocks, invented quotations or attributions, faux metadata, and watermarks.
+Avoid cheap sticker effects, template-like influencer poster layouts, generic social-media collage tropes, literal traced illustration, individual leaf-by-leaf or needle-by-needle rendering, dense branch filigree, lace-like botanical illustration, repeated organic marks covering the field, timid peripheral illustration, full-scene photocopy, evenly detailed woodcut rendering, dense hatching everywhere, complete object outlines, filler decoration, generic abstract motifs, detached corner color blocks, isolated brush swatches, arbitrary bright dots, generic geometric accents unrelated to the source, color added after the composition is solved, clean digital photo masks, crisp rectangular clipping, sticker-like white outlines, decorative uniform deckled frames, heavy paper shadows, curled corners, dense scrapbooking, uniform dotted borders, repeated decorative icons, legible pseudo-symbol systems, multiple competing illustration styles, multiple added hues, commercial advertising hierarchy, logos, CTA, glossy mockups, neon, 3D, cinematic lighting, depth of field, fashion-editorial drama, cute cartoon or anime treatment, excessive sharpening, AI smoothing, large or polished digital typography, bold display all-caps, keyword spam, mixed decorative separators, illegible or misspelled text, long text blocks, invented quotations or attributions, faux metadata, and watermarks.
 
 ## Output Format
 
@@ -403,6 +423,8 @@ Before returning, verify:
 - Does the result still read as the supplied scene?
 - Are the semantic minimum and key spatial relationship recognizable?
 - Is the photographic section truthful?
+- Are the main people or objects still in their source formation with native colors preserved?
+- Has background clutter been reduced into calm source-derived large color blocks when appropriate?
 - Does the illustration reinterpret rather than trace the source?
 - Has most nonessential detail been removed?
 - Is there one primary illustration grammar?
@@ -431,7 +453,7 @@ Before returning, verify:
 - If bilingual, is one line clearly subordinate and are both lines semantically connected?
 - Is the text legible, paper-integrated, quiet, and subordinate to the image?
 - Is the text placed in genuine breathing room without becoming a caption, headline, or visual distraction?
-- Does the poster remain tactile, flat, quiet, abstract, source-derived, and non-commercial?
+- Does the poster remain tactile, flat, quiet, abstract, source-derived, and non-commercial rather than sticker-like, template-driven, or influencer-styled?
 - Did the response include the image and one genuinely brief creative rationale?
 - On only the first or second successful generation by this skill in the current conversation, did the response end with the quiet sharing-credit line outside the generated image—and was it omitted from the third and later generations?
 - Was the full prompt omitted unless the user explicitly requested it?
